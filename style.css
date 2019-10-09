@@ -394,23 +394,31 @@ template {
       margin-top: 20px; } }
 .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--title .resumeUrl,
 .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--about .resumeUrl,
+.parallax-wrapper .title .resumeUrl,
 .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--title .multAppUrl,
 .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--about .multAppUrl,
+.parallax-wrapper .title .multAppUrl,
 .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--title .cdcUrl,
 .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--about .cdcUrl,
+.parallax-wrapper .title .cdcUrl,
 .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--title .rpgUrl,
-.parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--about .rpgUrl {
+.parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--about .rpgUrl,
+.parallax-wrapper .title .rpgUrl {
   color: #fff;
   text-decoration: none; }
   .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--title .resumeUrl a:hover,
   .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--about .resumeUrl a:hover,
+  .parallax-wrapper .title .resumeUrl a:hover,
   .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--title .multAppUrl a:hover,
   .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--about .multAppUrl a:hover,
+  .parallax-wrapper .title .multAppUrl a:hover,
   .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--title .cdcUrl a:hover,
   .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--about .cdcUrl a:hover,
+  .parallax-wrapper .title .cdcUrl a:hover,
   .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--title .rpgUrl a:hover,
-  .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--about .rpgUrl a:hover {
+  .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--about .rpgUrl a:hover,
+  .parallax-wrapper .title .rpgUrl a:hover {
     text-decoration: none;
     color: #fff; }
 
-/*# sourceMappingURL=styleTest.css.map */
+/*# sourceMappingURL=style.css.map */
