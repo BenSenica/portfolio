@@ -31,6 +31,7 @@ body {
     padding: 0;
     color: #000;
     font: Arial, Sans-Serif;
+    background: #282E34;
 }
 
 
@@ -49,8 +50,10 @@ main {
    */
 
 h1 {
-    font-size: 2em;
+    font-size: 4em;
     margin: 0.67em 0;
+    color: #fff;
+    text-align: center;
 }
 
 
@@ -427,17 +430,20 @@ template {
     height: 100vh;
     overflow-x: hidden;
     overflow-y: scroll;
+    display: grid;
 }
 
 .background {
-    background-position: center;
+    //background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex: 1 0 auto;
     position: relative;
     z-index: -1;
-    height: 100vh;
+    height: 68vh;
     width: 100vw;
+    margin: auto;
     justify-content: center;
     align-items: center;
     transform: translateZ(-1px) scale(2);
@@ -455,24 +461,12 @@ template {
     background-image: url(images/cdc.png);
 }
 
-.background--rpg {
-    background-image: url(images/rpg.png);
+.background--cinema {
+    background-image: url(images/cinema.png);
 }
 
-.title {
-    position: absolute;
-    margin: 0;
-    top: calc(50% - 50px);
-    width: 100%;
-    left: 0;
-    right: 0;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    height: 100px;
-    color: white;
-    font-size: 5rem;
-    background: rgba(0, 0, 0, 0.4);
+.background--rpg {
+    background-image: url(images/rpg.png);
 }
 
 .portfolio-desc {
@@ -492,8 +486,10 @@ template {
         box-sizing: border-box;
         text-decoration: none;
         color: #fff;
+        justify-content: flex-end;
     }
-    .portfolio--title {
+    .portfolio--title,
+    .portfolio {
         text-align: center;
         font-size: 4rem;
         letter-spacing: 5px;
@@ -525,16 +521,14 @@ template {
 
 .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--title .resumeUrl,
 .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--about .resumeUrl,
-.parallax-wrapper .title .resumeUrl,
 .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--title .multAppUrl,
 .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--about .multAppUrl,
-.parallax-wrapper .title .multAppUrl,
 .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--title .cdcUrl,
 .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--about .cdcUrl,
-.parallax-wrapper .title .cdcUrl,
+.parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--title .cinemaUrl,
+.parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--about .cinemaUrl,
 .parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--title .rpgUrl,
-.parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--about .rpgUrl,
-.parallax-wrapper .title .rpgUrl {
+.parallax-wrapper .portfolio-desc .desc-wrapper .portfolio--about .rpgUrl {
     color: #fff;
     text-decoration: none;
     a:hover {
